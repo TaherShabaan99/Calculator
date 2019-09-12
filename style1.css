@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: gray;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container11 {
+  flex: 0 0 95%;
+}
+
+.whole-screen {
+  width: 100%;
+  height: 8rem;
+  background-color: darkgray;
+  font-size: 3rem;
+  padding: 1rem;
+  color: #fff;
+  border: none;
+}
+
+.btns {
+  padding: 1rem;
+  margin: 0;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.ALLbuttons {
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.5s linear;
+}
+
+/* 25% of the 95% of the main container1*/
+button {
+  flex: 0 0 25%;
+}
+
+.DBlue {
+  background: #02021d;
+}
+
+.DBlue:hover {
+  background: #070770;
+}
+
+.GreyBtn {
+  background: #1a1919;
+}
+
+.GreyBtn:hover {
+  background: #3f3c3c;
+}
+.equalbtn, .clearbtn{
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 300;
+}
+
+.equalbtn {
+  padding: 1rem;
+  margin: 0;
+  font-size: 2rem;
+  background: #300808;
+}
+
+.equalbtn:hover {
+  background: #b20000;
+}
+
+.clearbtn{
+  padding: 1rem;
+  margin: 0;
+  font-size: 2rem;
+  background: #124612;;
+}
+
+.clearbtn:hover {
+  background: #08b108;
+}
